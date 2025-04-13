@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --light-color: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: var(--light-color);
+}
+
+.appointment-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 4rem 0;
+    margin-bottom: 3rem;
+}
+
+.appointment-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-control:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 0.25rem rgba(52, 152, 219, 0.25);
+}
+
+.btn-rdv {
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.btn-rdv:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.service-icon {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
